@@ -4,8 +4,8 @@ dv.style.opacity = 0;
 var val = 0;
 
 function timer(){
-	var start = new Date(2024, 0, 7, 15, 00);
-	var t = new Date() - start;
+	var start = new Date(2024, 0, 0, 0, 00);
+	var t = new Date(15) - start;
 	var d = Math.floor(t / 1000 / 60 / 60 / 24);
 	var h = Math.floor(t / 1000 / 60 / 60 % 24);
 	if(h < 10){
